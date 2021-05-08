@@ -1,0 +1,19 @@
+.partners{
+    padding: 8rem;
+    background: rgb(255, 255, 255);
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+.parent img{
+    width: 200px;
+    height: auto;
+}
+
+@media only screen and (max-width: 780px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+}
